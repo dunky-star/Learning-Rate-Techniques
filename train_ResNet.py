@@ -1,8 +1,8 @@
 
 ################################################################################################################################# 
 #USAGE                                                                                                                          #
-# python train_ResNet.py --train-plot output/train_no_schedule.png															    #
-# python train_ResNet.py --schedule standard --train-plot output/train_standard_schedule.png									#
+# python train_ResNet.py --train-plot output/train_no_schedule.png                                                              #															    #
+# python train_ResNet.py --schedule standard --train-plot output/train_standard_schedule.png                                    #									#
 # python train_ResNet.py --schedule step --lr-plot output/lr_step_schedule.png --train-plot output/train_step_schedule.png      #
 # python train_ResNet.py --schedule linear --lr-plot output/lr_linear_schedule.png --train-plot output/train_linear_schedule.png#
 # python train_ResNet.py --schedule poly --lr-plot output/lr_poly_schedule.png --train-plot output/train_poly_schedule.png      #
