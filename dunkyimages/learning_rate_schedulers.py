@@ -47,8 +47,7 @@ class PolynomialDecay(LearningRateDecay):
 		return float(alpha)
 
 if __name__ == "__main__":
-	# plotting a step-based decay which drops by a factor of 0.5 every
-	# 25 epochs
+	# plotting a step-based decay which drops by a factor of 0.5 every 25 epochs
 	sd = StepDecay(initAlpha=0.01, factor=0.5, dropEvery=25)
 	sd.plot(range(0, 100), title="Step-based Decay")
 	plt.show()
